@@ -19,7 +19,6 @@ PRODUCT_COPY_FILES += \
     vendor/smartisan/oscar/proprietary/bin/mm-qcamera-daemon:system/bin/mm-qcamera-daemon \
     vendor/smartisan/oscar/proprietary/bin/sensors.qcom:system/bin/sensors.qcom \
     vendor/smartisan/oscar/proprietary/bin/wcnss_service:system/bin/wcnss_service \
-    vendor/smartisan/oscar/proprietary/etc/camera/camera_config.xml:system/etc/camera/camera_config.xml \
     vendor/smartisan/oscar/proprietary/etc/camera/csidtg_camera.xml:system/etc/camera/csidtg_camera.xml \
     vendor/smartisan/oscar/proprietary/etc/camera/csidtg_chromatix.xml:system/etc/camera/csidtg_chromatix.xml \
     vendor/smartisan/oscar/proprietary/etc/camera/gc8034_chromatix.xml:system/etc/camera/gc8034_chromatix.xml \
