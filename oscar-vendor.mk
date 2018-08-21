@@ -105,7 +105,6 @@ PRODUCT_COPY_FILES += \
     vendor/smartisan/oscar/proprietary/etc/firmware/wlan/prima/WCNSS_cfg.dat:system/etc/firmware/wlan/prima/WCNSS_cfg.dat \
     vendor/smartisan/oscar/proprietary/etc/sensors/hals.conf:system/etc/sensors/hals.conf \
     vendor/smartisan/oscar/proprietary/etc/sensors/sensor_def_qcomdev.conf:system/etc/sensors/sensor_def_qcomdev.conf \
-    vendor/smartisan/oscar/proprietary/etc/thermal-engine.conf:system/etc/thermal-engine.conf \
     vendor/smartisan/oscar/proprietary/etc/wifi/WCNSS_qcom_wlan_nv.bin:system/etc/wifi/WCNSS_qcom_wlan_nv.bin \
     vendor/smartisan/oscar/proprietary/etc/wifi/WCNSS_wlan_dictionary.dat:system/etc/wifi/WCNSS_wlan_dictionary.dat \
     vendor/smartisan/oscar/proprietary/lib/hw/audio.primary.msm8953.so:system/lib/hw/audio.primary.msm8953.so \
@@ -143,7 +142,6 @@ PRODUCT_COPY_FILES += \
     vendor/smartisan/oscar/proprietary/lib64/libgoodixfingerprintd_binder.so:system/lib64/libgoodixfingerprintd_binder.so \
     vendor/smartisan/oscar/proprietary/lib64/libnotifyaudiohal.so:system/lib64/libnotifyaudiohal.so \
     vendor/smartisan/oscar/proprietary/lib64/libxuFPAlg.so:system/lib64/libxuFPAlg.so \
-    vendor/smartisan/oscar/proprietary/vendor/bin/thermal-engine:system/vendor/bin/thermal-engine \
     vendor/smartisan/oscar/proprietary/vendor/lib/hw/activity_recognition.msm8953.so:system/vendor/lib/hw/activity_recognition.msm8953.so \
     vendor/smartisan/oscar/proprietary/vendor/lib/libChamomilePA.so:system/vendor/lib/libChamomilePA.so \
     vendor/smartisan/oscar/proprietary/vendor/lib/libactuator_ad5816g.so:system/vendor/lib/libactuator_ad5816g.so \
@@ -1236,7 +1234,6 @@ PRODUCT_COPY_FILES += \
     vendor/smartisan/oscar/proprietary/vendor/lib/libchromatix_s5k3p8sp_preview.so:system/vendor/lib/libchromatix_s5k3p8sp_preview.so \
     vendor/smartisan/oscar/proprietary/vendor/lib/libchromatix_s5k3p8sp_snapshot.so:system/vendor/lib/libchromatix_s5k3p8sp_snapshot.so \
     vendor/smartisan/oscar/proprietary/vendor/lib/libflash_pmic.so:system/vendor/lib/libflash_pmic.so \
-    vendor/smartisan/oscar/proprietary/vendor/lib/libhwdaphal.so:system/vendor/lib/libhwdaphal.so \
     vendor/smartisan/oscar/proprietary/vendor/lib/libjpegdhw.so:system/vendor/lib/libjpegdhw.so \
     vendor/smartisan/oscar/proprietary/vendor/lib/libjpegdmahw.so:system/vendor/lib/libjpegdmahw.so \
     vendor/smartisan/oscar/proprietary/vendor/lib/libjpegehw.so:system/vendor/lib/libjpegehw.so \
@@ -1403,17 +1400,13 @@ PRODUCT_COPY_FILES += \
     vendor/smartisan/oscar/proprietary/vendor/lib/libseemore.so:system/vendor/lib/libseemore.so \
     vendor/smartisan/oscar/proprietary/vendor/lib/libsensor1.so:system/vendor/lib/libsensor1.so \
     vendor/smartisan/oscar/proprietary/vendor/lib/libsensor_reg.so:system/vendor/lib/libsensor_reg.so \
-    vendor/smartisan/oscar/proprietary/vendor/lib/libthermalclient.so:system/vendor/lib/libthermalclient.so \
     vendor/smartisan/oscar/proprietary/vendor/lib/libtrueportrait.so:system/vendor/lib/libtrueportrait.so \
     vendor/smartisan/oscar/proprietary/vendor/lib/libubifocus.so:system/vendor/lib/libubifocus.so \
     vendor/smartisan/oscar/proprietary/vendor/lib/sensor_calibrate.so:system/vendor/lib/sensor_calibrate.so \
     vendor/smartisan/oscar/proprietary/vendor/lib/sensors.ssc.so:system/vendor/lib/sensors.ssc.so \
     vendor/smartisan/oscar/proprietary/vendor/lib64/hw/activity_recognition.msm8953.so:system/vendor/lib64/hw/activity_recognition.msm8953.so \
-    vendor/smartisan/oscar/proprietary/vendor/lib64/libhwdaphal.so:system/vendor/lib64/libhwdaphal.so \
     vendor/smartisan/oscar/proprietary/vendor/lib64/libsensor1.so:system/vendor/lib64/libsensor1.so \
     vendor/smartisan/oscar/proprietary/vendor/lib64/libsensor_reg.so:system/vendor/lib64/libsensor_reg.so \
-    vendor/smartisan/oscar/proprietary/vendor/lib64/libthermalclient.so:system/vendor/lib64/libthermalclient.so \
-    vendor/smartisan/oscar/proprietary/vendor/lib64/libthermalioctl.so:system/vendor/lib64/libthermalioctl.so \
     vendor/smartisan/oscar/proprietary/vendor/lib64/sensor_calibrate.so:system/vendor/lib64/sensor_calibrate.so \
     vendor/smartisan/oscar/proprietary/vendor/lib64/sensors.elliptic.so:system/vendor/lib64/sensors.elliptic.so \
     vendor/smartisan/oscar/proprietary/vendor/lib64/sensors.ssc.so:system/vendor/lib64/sensors.ssc.so
@@ -1435,7 +1428,6 @@ PRODUCT_COPY_FILES += \
     vendor/smartisan/oscar/proprietary/bin/imscmservice:system/bin/imscmservice \
     vendor/smartisan/oscar/proprietary/bin/imsdatadaemon:system/bin/imsdatadaemon \
     vendor/smartisan/oscar/proprietary/bin/imsqmidaemon:system/bin/imsqmidaemon \
-    vendor/smartisan/oscar/proprietary/bin/iop:system/bin/iop \
     vendor/smartisan/oscar/proprietary/bin/ipacm-diag:system/bin/ipacm-diag \
     vendor/smartisan/oscar/proprietary/bin/irsc_util:system/bin/irsc_util \
     vendor/smartisan/oscar/proprietary/bin/loc_launcher:system/bin/loc_launcher \
@@ -1490,6 +1482,7 @@ PRODUCT_COPY_FILES += \
     vendor/smartisan/oscar/proprietary/etc/permissions/telephonyservice.xml:system/etc/permissions/telephonyservice.xml \
     vendor/smartisan/oscar/proprietary/etc/surround_sound_3mic/surround_sound_rec_5.1.cfg:system/etc/surround_sound_3mic/surround_sound_rec_5.1.cfg \
     vendor/smartisan/oscar/proprietary/etc/surround_sound_3mic/surround_sound_rec_AZ.cfg:system/etc/surround_sound_3mic/surround_sound_rec_AZ.cfg \
+    vendor/smartisan/oscar/proprietary/etc/thermal-engine.conf:system/etc/thermal-engine.conf \
     vendor/smartisan/oscar/proprietary/framework/ConnectivityExt.jar:system/framework/ConnectivityExt.jar \
     vendor/smartisan/oscar/proprietary/framework/QtiTelephonyServicelibrary.jar:system/framework/QtiTelephonyServicelibrary.jar \
     vendor/smartisan/oscar/proprietary/framework/cneapiclient.jar:system/framework/cneapiclient.jar \
@@ -1514,10 +1507,10 @@ PRODUCT_COPY_FILES += \
     vendor/smartisan/oscar/proprietary/lib64/libstagefright_soft_flacdec.so:system/lib64/libstagefright_soft_flacdec.so \
     vendor/smartisan/oscar/proprietary/lib64/libvpplibrary.so:system/lib64/libvpplibrary.so \
     vendor/smartisan/oscar/proprietary/vendor/bin/mm-pp-dpps:system/vendor/bin/mm-pp-dpps \
-    vendor/smartisan/oscar/proprietary/vendor/bin/perfd:system/vendor/bin/perfd \
     vendor/smartisan/oscar/proprietary/vendor/bin/qseeproxydaemon:system/vendor/bin/qseeproxydaemon \
     vendor/smartisan/oscar/proprietary/vendor/bin/qti:system/vendor/bin/qti \
     vendor/smartisan/oscar/proprietary/vendor/bin/slim_daemon:system/vendor/bin/slim_daemon \
+    vendor/smartisan/oscar/proprietary/vendor/bin/thermal-engine:system/vendor/bin/thermal-engine \
     vendor/smartisan/oscar/proprietary/vendor/framework/qti-vzw-ims-internal.jar:system/vendor/framework/qti-vzw-ims-internal.jar \
     vendor/smartisan/oscar/proprietary/vendor/lib/egl/eglSubDriverAndroid.so:system/vendor/lib/egl/eglSubDriverAndroid.so \
     vendor/smartisan/oscar/proprietary/vendor/lib/egl/libEGL_adreno.so:system/vendor/lib/egl/libEGL_adreno.so \
@@ -1592,6 +1585,7 @@ PRODUCT_COPY_FILES += \
     vendor/smartisan/oscar/proprietary/vendor/lib/libflp.so:system/vendor/lib/libflp.so \
     vendor/smartisan/oscar/proprietary/vendor/lib/libgeofence.so:system/vendor/lib/libgeofence.so \
     vendor/smartisan/oscar/proprietary/vendor/lib/libgsl.so:system/vendor/lib/libgsl.so \
+    vendor/smartisan/oscar/proprietary/vendor/lib/libhwdaphal.so:system/vendor/lib/libhwdaphal.so \
     vendor/smartisan/oscar/proprietary/vendor/lib/libidl.so:system/vendor/lib/libidl.so \
     vendor/smartisan/oscar/proprietary/vendor/lib/libizat_core.so:system/vendor/lib/libizat_core.so \
     vendor/smartisan/oscar/proprietary/vendor/lib/liblbs_core.so:system/vendor/lib/liblbs_core.so \
@@ -1627,11 +1621,7 @@ PRODUCT_COPY_FILES += \
     vendor/smartisan/oscar/proprietary/vendor/lib/libqmi_csi.so:system/vendor/lib/libqmi_csi.so \
     vendor/smartisan/oscar/proprietary/vendor/lib/libqmi_encdec.so:system/vendor/lib/libqmi_encdec.so \
     vendor/smartisan/oscar/proprietary/vendor/lib/libqmiservices.so:system/vendor/lib/libqmiservices.so \
-    vendor/smartisan/oscar/proprietary/vendor/lib/libqti-iop-client.so:system/vendor/lib/libqti-iop-client.so \
-    vendor/smartisan/oscar/proprietary/vendor/lib/libqti-iop.so:system/vendor/lib/libqti-iop.so \
-    vendor/smartisan/oscar/proprietary/vendor/lib/libqti-perfd-client.so:system/vendor/lib/libqti-perfd-client.so \
     vendor/smartisan/oscar/proprietary/vendor/lib/libqti-wl.so:system/vendor/lib/libqti-wl.so \
-    vendor/smartisan/oscar/proprietary/vendor/lib/libqti_performance.so:system/vendor/lib/libqti_performance.so \
     vendor/smartisan/oscar/proprietary/vendor/lib/libquipc_os_api.so:system/vendor/lib/libquipc_os_api.so \
     vendor/smartisan/oscar/proprietary/vendor/lib/librpmb.so:system/vendor/lib/librpmb.so \
     vendor/smartisan/oscar/proprietary/vendor/lib/librs_adreno.so:system/vendor/lib/librs_adreno.so \
@@ -1643,6 +1633,7 @@ PRODUCT_COPY_FILES += \
     vendor/smartisan/oscar/proprietary/vendor/lib/libsmwrapper.so:system/vendor/lib/libsmwrapper.so \
     vendor/smartisan/oscar/proprietary/vendor/lib/libssd.so:system/vendor/lib/libssd.so \
     vendor/smartisan/oscar/proprietary/vendor/lib/libsurround_3mic_proc.so:system/vendor/lib/libsurround_3mic_proc.so \
+    vendor/smartisan/oscar/proprietary/vendor/lib/libthermalclient.so:system/vendor/lib/libthermalclient.so \
     vendor/smartisan/oscar/proprietary/vendor/lib/libtzdrmgenprov.so:system/vendor/lib/libtzdrmgenprov.so \
     vendor/smartisan/oscar/proprietary/vendor/lib/libulp2.so:system/vendor/lib/libulp2.so \
     vendor/smartisan/oscar/proprietary/vendor/lib/libvendorconn.so:system/vendor/lib/libvendorconn.so \
@@ -1767,6 +1758,7 @@ PRODUCT_COPY_FILES += \
     vendor/smartisan/oscar/proprietary/vendor/lib64/libgdtap.so:system/vendor/lib64/libgdtap.so \
     vendor/smartisan/oscar/proprietary/vendor/lib64/libgeofence.so:system/vendor/lib64/libgeofence.so \
     vendor/smartisan/oscar/proprietary/vendor/lib64/libgsl.so:system/vendor/lib64/libgsl.so \
+    vendor/smartisan/oscar/proprietary/vendor/lib64/libhwdaphal.so:system/vendor/lib64/libhwdaphal.so \
     vendor/smartisan/oscar/proprietary/vendor/lib64/libidl.so:system/vendor/lib64/libidl.so \
     vendor/smartisan/oscar/proprietary/vendor/lib64/libimscamera_jni.so:system/vendor/lib64/libimscamera_jni.so \
     vendor/smartisan/oscar/proprietary/vendor/lib64/libimsmedia_jni.so:system/vendor/lib64/libimsmedia_jni.so \
@@ -1804,11 +1796,7 @@ PRODUCT_COPY_FILES += \
     vendor/smartisan/oscar/proprietary/vendor/lib64/libqmi_csi.so:system/vendor/lib64/libqmi_csi.so \
     vendor/smartisan/oscar/proprietary/vendor/lib64/libqmi_encdec.so:system/vendor/lib64/libqmi_encdec.so \
     vendor/smartisan/oscar/proprietary/vendor/lib64/libqmiservices.so:system/vendor/lib64/libqmiservices.so \
-    vendor/smartisan/oscar/proprietary/vendor/lib64/libqti-iop-client.so:system/vendor/lib64/libqti-iop-client.so \
-    vendor/smartisan/oscar/proprietary/vendor/lib64/libqti-iop.so:system/vendor/lib64/libqti-iop.so \
-    vendor/smartisan/oscar/proprietary/vendor/lib64/libqti-perfd-client.so:system/vendor/lib64/libqti-perfd-client.so \
     vendor/smartisan/oscar/proprietary/vendor/lib64/libqti-wl.so:system/vendor/lib64/libqti-wl.so \
-    vendor/smartisan/oscar/proprietary/vendor/lib64/libqti_performance.so:system/vendor/lib64/libqti_performance.so \
     vendor/smartisan/oscar/proprietary/vendor/lib64/libquipc_os_api.so:system/vendor/lib64/libquipc_os_api.so \
     vendor/smartisan/oscar/proprietary/vendor/lib64/librcc.so:system/vendor/lib64/librcc.so \
     vendor/smartisan/oscar/proprietary/vendor/lib64/libril-qc-ltedirectdisc.so:system/vendor/lib64/libril-qc-ltedirectdisc.so \
@@ -1833,6 +1821,8 @@ PRODUCT_COPY_FILES += \
     vendor/smartisan/oscar/proprietary/vendor/lib64/libsmemlog.so:system/vendor/lib64/libsmemlog.so \
     vendor/smartisan/oscar/proprietary/vendor/lib64/libssd.so:system/vendor/lib64/libssd.so \
     vendor/smartisan/oscar/proprietary/vendor/lib64/libsystem_health_mon.so:system/vendor/lib64/libsystem_health_mon.so \
+    vendor/smartisan/oscar/proprietary/vendor/lib64/libthermalclient.so:system/vendor/lib64/libthermalclient.so \
+    vendor/smartisan/oscar/proprietary/vendor/lib64/libthermalioctl.so:system/vendor/lib64/libthermalioctl.so \
     vendor/smartisan/oscar/proprietary/vendor/lib64/libtzdrmgenprov.so:system/vendor/lib64/libtzdrmgenprov.so \
     vendor/smartisan/oscar/proprietary/vendor/lib64/libulp2.so:system/vendor/lib64/libulp2.so \
     vendor/smartisan/oscar/proprietary/vendor/lib64/libvendorconn.so:system/vendor/lib64/libvendorconn.so \
@@ -1862,3 +1852,14 @@ PRODUCT_PACKAGES += \
     ims \
     imssettings \
     qcrilhook
+PRODUCT_COPY_FILES += \
+    vendor/smartisan/oscar/proprietary/bin/iop:system/bin/iop \
+    vendor/smartisan/oscar/proprietary/vendor/bin/perfd:system/vendor/bin/perfd \
+    vendor/smartisan/oscar/proprietary/vendor/lib/libqti-iop-client.so:system/vendor/lib/libqti-iop-client.so \
+    vendor/smartisan/oscar/proprietary/vendor/lib/libqti-iop.so:system/vendor/lib/libqti-iop.so \
+    vendor/smartisan/oscar/proprietary/vendor/lib/libqti-perfd-client.so:system/vendor/lib/libqti-perfd-client.so \
+    vendor/smartisan/oscar/proprietary/vendor/lib/libqti_performance.so:system/vendor/lib/libqti_performance.so \
+    vendor/smartisan/oscar/proprietary/vendor/lib64/libqti-iop-client.so:system/vendor/lib64/libqti-iop-client.so \
+    vendor/smartisan/oscar/proprietary/vendor/lib64/libqti-iop.so:system/vendor/lib64/libqti-iop.so \
+    vendor/smartisan/oscar/proprietary/vendor/lib64/libqti-perfd-client.so:system/vendor/lib64/libqti-perfd-client.so \
+    vendor/smartisan/oscar/proprietary/vendor/lib64/libqti_performance.so:system/vendor/lib64/libqti_performance.so
