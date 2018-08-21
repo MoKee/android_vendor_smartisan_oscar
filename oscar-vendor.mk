@@ -17,6 +17,7 @@
 PRODUCT_COPY_FILES += \
     vendor/smartisan/oscar/proprietary/bin/btlfpserver:system/bin/btlfpserver \
     vendor/smartisan/oscar/proprietary/bin/fingerprintd:system/bin/fingerprintd \
+    vendor/smartisan/oscar/proprietary/bin/ifaad:system/bin/ifaad \
     vendor/smartisan/oscar/proprietary/bin/mm-qcamera-daemon:system/bin/mm-qcamera-daemon \
     vendor/smartisan/oscar/proprietary/bin/sensors.qcom:system/bin/sensors.qcom \
     vendor/smartisan/oscar/proprietary/etc/camera/csidtg_camera.xml:system/etc/camera/csidtg_camera.xml \
@@ -121,6 +122,8 @@ PRODUCT_COPY_FILES += \
     vendor/smartisan/oscar/proprietary/lib/libarcsoft_refocus_sm.so:system/lib/libarcsoft_refocus_sm.so \
     vendor/smartisan/oscar/proprietary/lib/libarcsoft_smart_denoise.so:system/lib/libarcsoft_smart_denoise.so \
     vendor/smartisan/oscar/proprietary/lib/libaudioroute.so:system/lib/libaudioroute.so \
+    vendor/smartisan/oscar/proprietary/lib/libifaa_daemon.so:system/lib/libifaa_daemon.so \
+    vendor/smartisan/oscar/proprietary/lib/libifaa_jni.so:system/lib/libifaa_jni.so \
     vendor/smartisan/oscar/proprietary/lib/libmm-qcamera.so:system/lib/libmm-qcamera.so \
     vendor/smartisan/oscar/proprietary/lib/libmmcamera_interface.so:system/lib/libmmcamera_interface.so \
     vendor/smartisan/oscar/proprietary/lib/libmmjpeg_interface.so:system/lib/libmmjpeg_interface.so \
@@ -137,10 +140,13 @@ PRODUCT_COPY_FILES += \
     vendor/smartisan/oscar/proprietary/lib64/hw/fingerprint.default.so:system/lib64/hw/fingerprint.default.so \
     vendor/smartisan/oscar/proprietary/lib64/libBtlFpHal.so:system/lib64/libBtlFpHal.so \
     vendor/smartisan/oscar/proprietary/lib64/libBtlFpService.so:system/lib64/libBtlFpService.so \
+    vendor/smartisan/oscar/proprietary/lib64/lib_ifaa_tac.so:system/lib64/lib_ifaa_tac.so \
     vendor/smartisan/oscar/proprietary/lib64/libaudioroute.so:system/lib64/libaudioroute.so \
     vendor/smartisan/oscar/proprietary/lib64/libgf_ca.so:system/lib64/libgf_ca.so \
     vendor/smartisan/oscar/proprietary/lib64/libgf_hal.so:system/lib64/libgf_hal.so \
     vendor/smartisan/oscar/proprietary/lib64/libgoodixfingerprintd_binder.so:system/lib64/libgoodixfingerprintd_binder.so \
+    vendor/smartisan/oscar/proprietary/lib64/libifaa_daemon.so:system/lib64/libifaa_daemon.so \
+    vendor/smartisan/oscar/proprietary/lib64/libifaa_jni.so:system/lib64/libifaa_jni.so \
     vendor/smartisan/oscar/proprietary/lib64/libnotifyaudiohal.so:system/lib64/libnotifyaudiohal.so \
     vendor/smartisan/oscar/proprietary/lib64/libxuFPAlg.so:system/lib64/libxuFPAlg.so \
     vendor/smartisan/oscar/proprietary/vendor/lib/hw/activity_recognition.msm8953.so:system/vendor/lib/hw/activity_recognition.msm8953.so \
@@ -1414,7 +1420,8 @@ PRODUCT_COPY_FILES += \
 
 PRODUCT_PACKAGES += \
     libts_detected_face_hal \
-    libts_face_beautify_hal
+    libts_face_beautify_hal \
+    ifaa_fw
 PRODUCT_COPY_FILES += \
     vendor/smartisan/oscar/proprietary/bin/adsprpcd:system/bin/adsprpcd \
     vendor/smartisan/oscar/proprietary/bin/btnvtool:system/bin/btnvtool \
