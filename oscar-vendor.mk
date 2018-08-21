@@ -16,6 +16,7 @@
 
 PRODUCT_COPY_FILES += \
     vendor/smartisan/oscar/proprietary/bin/btlfpserver:system/bin/btlfpserver \
+    vendor/smartisan/oscar/proprietary/bin/fingerprintd:system/bin/fingerprintd \
     vendor/smartisan/oscar/proprietary/bin/mm-qcamera-daemon:system/bin/mm-qcamera-daemon \
     vendor/smartisan/oscar/proprietary/bin/sensors.qcom:system/bin/sensors.qcom \
     vendor/smartisan/oscar/proprietary/etc/camera/csidtg_camera.xml:system/etc/camera/csidtg_camera.xml \
@@ -132,8 +133,8 @@ PRODUCT_COPY_FILES += \
     vendor/smartisan/oscar/proprietary/lib/libtt_panorama.so:system/lib/libtt_panorama.so \
     vendor/smartisan/oscar/proprietary/lib/modules/pronto/pronto_wlan.ko:system/lib/modules/pronto/pronto_wlan.ko \
     vendor/smartisan/oscar/proprietary/lib64/hw/audio.primary.msm8953.so:system/lib64/hw/audio.primary.msm8953.so \
-    vendor/smartisan/oscar/proprietary/lib64/hw/fingerprint.blestech.so:system/lib64/hw/fingerprint.blestech.so \
-    vendor/smartisan/oscar/proprietary/lib64/hw/fingerprint.goodix.so:system/lib64/hw/fingerprint.goodix.so \
+    vendor/smartisan/oscar/proprietary/lib64/hw/blestech.fingerprint.default.so:system/lib64/hw/blestech.fingerprint.default.so \
+    vendor/smartisan/oscar/proprietary/lib64/hw/fingerprint.default.so:system/lib64/hw/fingerprint.default.so \
     vendor/smartisan/oscar/proprietary/lib64/libBtlFpHal.so:system/lib64/libBtlFpHal.so \
     vendor/smartisan/oscar/proprietary/lib64/libBtlFpService.so:system/lib64/libBtlFpService.so \
     vendor/smartisan/oscar/proprietary/lib64/libaudioroute.so:system/lib64/libaudioroute.so \
