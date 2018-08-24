@@ -63,6 +63,21 @@ PRODUCT_COPY_FILES += \
     vendor/smartisan/oscar/proprietary/etc/camera/s5k3m2xx_chromatix.xml:system/etc/camera/s5k3m2xx_chromatix.xml \
     vendor/smartisan/oscar/proprietary/etc/camera/s5k3p3sm_chromatix.xml:system/etc/camera/s5k3p3sm_chromatix.xml \
     vendor/smartisan/oscar/proprietary/etc/camera/s5k3p8sp_chromatix.xml:system/etc/camera/s5k3p8sp_chromatix.xml \
+    vendor/smartisan/oscar/proprietary/etc/dualcalData.data:system/etc/dualcalData.data \
+    vendor/smartisan/oscar/proprietary/etc/eis_configs/BMI160_vstab_db_1080p_preview_0.config:system/etc/eis_configs/BMI160_vstab_db_1080p_preview_0.config \
+    vendor/smartisan/oscar/proprietary/etc/eis_configs/BMI160_vstab_db_1080p_video_0.config:system/etc/eis_configs/BMI160_vstab_db_1080p_video_0.config \
+    vendor/smartisan/oscar/proprietary/etc/eis_configs/BMI160_vstab_db_1080p_video_1.config:system/etc/eis_configs/BMI160_vstab_db_1080p_video_1.config \
+    vendor/smartisan/oscar/proprietary/etc/eis_configs/BMI160_vstab_db_4k_video_0.config:system/etc/eis_configs/BMI160_vstab_db_4k_video_0.config \
+    vendor/smartisan/oscar/proprietary/etc/eis_configs/BMI160_vstab_db_720p_preview_0.config:system/etc/eis_configs/BMI160_vstab_db_720p_preview_0.config \
+    vendor/smartisan/oscar/proprietary/etc/eis_configs/BMI160_vstab_db_720p_video_0.config:system/etc/eis_configs/BMI160_vstab_db_720p_video_0.config \
+    vendor/smartisan/oscar/proprietary/etc/eis_configs/BMI160_vstab_db_720p_video_1.config:system/etc/eis_configs/BMI160_vstab_db_720p_video_1.config \
+    vendor/smartisan/oscar/proprietary/etc/eis_configs/ICM20600_vstab_db_1080p_preview_0.config:system/etc/eis_configs/ICM20600_vstab_db_1080p_preview_0.config \
+    vendor/smartisan/oscar/proprietary/etc/eis_configs/ICM20600_vstab_db_1080p_video_0.config:system/etc/eis_configs/ICM20600_vstab_db_1080p_video_0.config \
+    vendor/smartisan/oscar/proprietary/etc/eis_configs/ICM20600_vstab_db_1080p_video_1.config:system/etc/eis_configs/ICM20600_vstab_db_1080p_video_1.config \
+    vendor/smartisan/oscar/proprietary/etc/eis_configs/ICM20600_vstab_db_4k_video_0.config:system/etc/eis_configs/ICM20600_vstab_db_4k_video_0.config \
+    vendor/smartisan/oscar/proprietary/etc/eis_configs/ICM20600_vstab_db_720p_preview_0.config:system/etc/eis_configs/ICM20600_vstab_db_720p_preview_0.config \
+    vendor/smartisan/oscar/proprietary/etc/eis_configs/ICM20600_vstab_db_720p_video_0.config:system/etc/eis_configs/ICM20600_vstab_db_720p_video_0.config \
+    vendor/smartisan/oscar/proprietary/etc/eis_configs/ICM20600_vstab_db_720p_video_1.config:system/etc/eis_configs/ICM20600_vstab_db_720p_video_1.config \
     vendor/smartisan/oscar/proprietary/etc/elliptic_fusion_sensor.xml:system/etc/elliptic_fusion_sensor.xml \
     vendor/smartisan/oscar/proprietary/etc/elliptic_sensor.xml:system/etc/elliptic_sensor.xml \
     vendor/smartisan/oscar/proprietary/etc/firmware/a506_zap.b00:system/etc/firmware/a506_zap.b00 \
@@ -105,6 +120,89 @@ PRODUCT_COPY_FILES += \
     vendor/smartisan/oscar/proprietary/etc/firmware/rampatch_tlv_3.0.tlv:system/etc/firmware/rampatch_tlv_3.0.tlv \
     vendor/smartisan/oscar/proprietary/etc/firmware/rampatch_tlv_3.2.tlv:system/etc/firmware/rampatch_tlv_3.2.tlv \
     vendor/smartisan/oscar/proprietary/etc/firmware/wlan/prima/WCNSS_cfg.dat:system/etc/firmware/wlan/prima/WCNSS_cfg.dat \
+    vendor/smartisan/oscar/proprietary/etc/sensor_denoise_table/gc8034/ISO250_1440x1440.ncf:system/etc/sensor_denoise_table/gc8034/ISO250_1440x1440.ncf \
+    vendor/smartisan/oscar/proprietary/etc/sensor_denoise_table/gc8034/ISO250_2688x1512.ncf:system/etc/sensor_denoise_table/gc8034/ISO250_2688x1512.ncf \
+    vendor/smartisan/oscar/proprietary/etc/sensor_denoise_table/gc8034/ISO250_3264x2448.ncf:system/etc/sensor_denoise_table/gc8034/ISO250_3264x2448.ncf \
+    vendor/smartisan/oscar/proprietary/etc/sensor_denoise_table/gc8034/ISO320_1440x1440.ncf:system/etc/sensor_denoise_table/gc8034/ISO320_1440x1440.ncf \
+    vendor/smartisan/oscar/proprietary/etc/sensor_denoise_table/gc8034/ISO320_2688x1512.ncf:system/etc/sensor_denoise_table/gc8034/ISO320_2688x1512.ncf \
+    vendor/smartisan/oscar/proprietary/etc/sensor_denoise_table/gc8034/ISO320_3264x2448.ncf:system/etc/sensor_denoise_table/gc8034/ISO320_3264x2448.ncf \
+    vendor/smartisan/oscar/proprietary/etc/sensor_denoise_table/gc8034/ISO400_1440x1440.ncf:system/etc/sensor_denoise_table/gc8034/ISO400_1440x1440.ncf \
+    vendor/smartisan/oscar/proprietary/etc/sensor_denoise_table/gc8034/ISO400_2688x1512.ncf:system/etc/sensor_denoise_table/gc8034/ISO400_2688x1512.ncf \
+    vendor/smartisan/oscar/proprietary/etc/sensor_denoise_table/gc8034/ISO400_3264x2448.ncf:system/etc/sensor_denoise_table/gc8034/ISO400_3264x2448.ncf \
+    vendor/smartisan/oscar/proprietary/etc/sensor_denoise_table/gc8034/ISO640_1440x1440.ncf:system/etc/sensor_denoise_table/gc8034/ISO640_1440x1440.ncf \
+    vendor/smartisan/oscar/proprietary/etc/sensor_denoise_table/gc8034/ISO640_2688x1512.ncf:system/etc/sensor_denoise_table/gc8034/ISO640_2688x1512.ncf \
+    vendor/smartisan/oscar/proprietary/etc/sensor_denoise_table/gc8034/ISO640_3264x2448.ncf:system/etc/sensor_denoise_table/gc8034/ISO640_3264x2448.ncf \
+    vendor/smartisan/oscar/proprietary/etc/sensor_denoise_table/gc8034/ISO800_1440x1440.ncf:system/etc/sensor_denoise_table/gc8034/ISO800_1440x1440.ncf \
+    vendor/smartisan/oscar/proprietary/etc/sensor_denoise_table/gc8034/ISO800_2688x1512.ncf:system/etc/sensor_denoise_table/gc8034/ISO800_2688x1512.ncf \
+    vendor/smartisan/oscar/proprietary/etc/sensor_denoise_table/gc8034/ISO800_3264x2448.ncf:system/etc/sensor_denoise_table/gc8034/ISO800_3264x2448.ncf \
+    vendor/smartisan/oscar/proprietary/etc/sensor_denoise_table/hi846/ISO200_1440X1440.ncf:system/etc/sensor_denoise_table/hi846/ISO200_1440X1440.ncf \
+    vendor/smartisan/oscar/proprietary/etc/sensor_denoise_table/hi846/ISO200_2688X1512.ncf:system/etc/sensor_denoise_table/hi846/ISO200_2688X1512.ncf \
+    vendor/smartisan/oscar/proprietary/etc/sensor_denoise_table/hi846/ISO200_3264X2448.ncf:system/etc/sensor_denoise_table/hi846/ISO200_3264X2448.ncf \
+    vendor/smartisan/oscar/proprietary/etc/sensor_denoise_table/hi846/ISO320_1440X1440.ncf:system/etc/sensor_denoise_table/hi846/ISO320_1440X1440.ncf \
+    vendor/smartisan/oscar/proprietary/etc/sensor_denoise_table/hi846/ISO320_2688X1512.ncf:system/etc/sensor_denoise_table/hi846/ISO320_2688X1512.ncf \
+    vendor/smartisan/oscar/proprietary/etc/sensor_denoise_table/hi846/ISO320_3264X2448.ncf:system/etc/sensor_denoise_table/hi846/ISO320_3264X2448.ncf \
+    vendor/smartisan/oscar/proprietary/etc/sensor_denoise_table/hi846/ISO400_1440X1440.ncf:system/etc/sensor_denoise_table/hi846/ISO400_1440X1440.ncf \
+    vendor/smartisan/oscar/proprietary/etc/sensor_denoise_table/hi846/ISO400_2688X1512.ncf:system/etc/sensor_denoise_table/hi846/ISO400_2688X1512.ncf \
+    vendor/smartisan/oscar/proprietary/etc/sensor_denoise_table/hi846/ISO400_3264X2448.ncf:system/etc/sensor_denoise_table/hi846/ISO400_3264X2448.ncf \
+    vendor/smartisan/oscar/proprietary/etc/sensor_denoise_table/hi846/ISO500_1440X1440.ncf:system/etc/sensor_denoise_table/hi846/ISO500_1440X1440.ncf \
+    vendor/smartisan/oscar/proprietary/etc/sensor_denoise_table/hi846/ISO500_2688X1512.ncf:system/etc/sensor_denoise_table/hi846/ISO500_2688X1512.ncf \
+    vendor/smartisan/oscar/proprietary/etc/sensor_denoise_table/hi846/ISO500_3264X2448.ncf:system/etc/sensor_denoise_table/hi846/ISO500_3264X2448.ncf \
+    vendor/smartisan/oscar/proprietary/etc/sensor_denoise_table/hi846/ISO640_1440X1440.ncf:system/etc/sensor_denoise_table/hi846/ISO640_1440X1440.ncf \
+    vendor/smartisan/oscar/proprietary/etc/sensor_denoise_table/hi846/ISO640_2688X1512.ncf:system/etc/sensor_denoise_table/hi846/ISO640_2688X1512.ncf \
+    vendor/smartisan/oscar/proprietary/etc/sensor_denoise_table/hi846/ISO640_3264X2448.ncf:system/etc/sensor_denoise_table/hi846/ISO640_3264X2448.ncf \
+    vendor/smartisan/oscar/proprietary/etc/sensor_denoise_table/imx386/ISO200_2944x2944.ncf:system/etc/sensor_denoise_table/imx386/ISO200_2944x2944.ncf \
+    vendor/smartisan/oscar/proprietary/etc/sensor_denoise_table/imx386/ISO200_3968x2232.ncf:system/etc/sensor_denoise_table/imx386/ISO200_3968x2232.ncf \
+    vendor/smartisan/oscar/proprietary/etc/sensor_denoise_table/imx386/ISO200_3968x2976.ncf:system/etc/sensor_denoise_table/imx386/ISO200_3968x2976.ncf \
+    vendor/smartisan/oscar/proprietary/etc/sensor_denoise_table/imx386/ISO400_2944x2944.ncf:system/etc/sensor_denoise_table/imx386/ISO400_2944x2944.ncf \
+    vendor/smartisan/oscar/proprietary/etc/sensor_denoise_table/imx386/ISO400_3968x2232.ncf:system/etc/sensor_denoise_table/imx386/ISO400_3968x2232.ncf \
+    vendor/smartisan/oscar/proprietary/etc/sensor_denoise_table/imx386/ISO400_3968x2976.ncf:system/etc/sensor_denoise_table/imx386/ISO400_3968x2976.ncf \
+    vendor/smartisan/oscar/proprietary/etc/sensor_denoise_table/imx386/ISO800_2944x2944.ncf:system/etc/sensor_denoise_table/imx386/ISO800_2944x2944.ncf \
+    vendor/smartisan/oscar/proprietary/etc/sensor_denoise_table/imx386/ISO800_3968x2232.ncf:system/etc/sensor_denoise_table/imx386/ISO800_3968x2232.ncf \
+    vendor/smartisan/oscar/proprietary/etc/sensor_denoise_table/imx386/ISO800_3968x2976.ncf:system/etc/sensor_denoise_table/imx386/ISO800_3968x2976.ncf \
+    vendor/smartisan/oscar/proprietary/etc/sensor_denoise_table/ov13855_qtech/ISO250_3096x3096.ncf:system/etc/sensor_denoise_table/ov13855_qtech/ISO250_3096x3096.ncf \
+    vendor/smartisan/oscar/proprietary/etc/sensor_denoise_table/ov13855_qtech/ISO250_3968x1984.ncf:system/etc/sensor_denoise_table/ov13855_qtech/ISO250_3968x1984.ncf \
+    vendor/smartisan/oscar/proprietary/etc/sensor_denoise_table/ov13855_qtech/ISO250_4160x2340.ncf:system/etc/sensor_denoise_table/ov13855_qtech/ISO250_4160x2340.ncf \
+    vendor/smartisan/oscar/proprietary/etc/sensor_denoise_table/ov13855_qtech/ISO250_4160x3120.ncf:system/etc/sensor_denoise_table/ov13855_qtech/ISO250_4160x3120.ncf \
+    vendor/smartisan/oscar/proprietary/etc/sensor_denoise_table/ov13855_qtech/ISO320_3096x3096.ncf:system/etc/sensor_denoise_table/ov13855_qtech/ISO320_3096x3096.ncf \
+    vendor/smartisan/oscar/proprietary/etc/sensor_denoise_table/ov13855_qtech/ISO320_3968x1984.ncf:system/etc/sensor_denoise_table/ov13855_qtech/ISO320_3968x1984.ncf \
+    vendor/smartisan/oscar/proprietary/etc/sensor_denoise_table/ov13855_qtech/ISO320_4160x2340.ncf:system/etc/sensor_denoise_table/ov13855_qtech/ISO320_4160x2340.ncf \
+    vendor/smartisan/oscar/proprietary/etc/sensor_denoise_table/ov13855_qtech/ISO320_4160x3120.ncf:system/etc/sensor_denoise_table/ov13855_qtech/ISO320_4160x3120.ncf \
+    vendor/smartisan/oscar/proprietary/etc/sensor_denoise_table/ov13855_qtech/ISO400_3096x3096.ncf:system/etc/sensor_denoise_table/ov13855_qtech/ISO400_3096x3096.ncf \
+    vendor/smartisan/oscar/proprietary/etc/sensor_denoise_table/ov13855_qtech/ISO400_3968x1984.ncf:system/etc/sensor_denoise_table/ov13855_qtech/ISO400_3968x1984.ncf \
+    vendor/smartisan/oscar/proprietary/etc/sensor_denoise_table/ov13855_qtech/ISO400_4160x2340.ncf:system/etc/sensor_denoise_table/ov13855_qtech/ISO400_4160x2340.ncf \
+    vendor/smartisan/oscar/proprietary/etc/sensor_denoise_table/ov13855_qtech/ISO400_4160x3120.ncf:system/etc/sensor_denoise_table/ov13855_qtech/ISO400_4160x3120.ncf \
+    vendor/smartisan/oscar/proprietary/etc/sensor_denoise_table/ov13855_qtech/ISO640_3096x3096.ncf:system/etc/sensor_denoise_table/ov13855_qtech/ISO640_3096x3096.ncf \
+    vendor/smartisan/oscar/proprietary/etc/sensor_denoise_table/ov13855_qtech/ISO640_3968x1984.ncf:system/etc/sensor_denoise_table/ov13855_qtech/ISO640_3968x1984.ncf \
+    vendor/smartisan/oscar/proprietary/etc/sensor_denoise_table/ov13855_qtech/ISO640_4160x2340.ncf:system/etc/sensor_denoise_table/ov13855_qtech/ISO640_4160x2340.ncf \
+    vendor/smartisan/oscar/proprietary/etc/sensor_denoise_table/ov13855_qtech/ISO640_4160x3120.ncf:system/etc/sensor_denoise_table/ov13855_qtech/ISO640_4160x3120.ncf \
+    vendor/smartisan/oscar/proprietary/etc/sensor_denoise_table/ov13855_qtech/ISO800_3096x3096.ncf:system/etc/sensor_denoise_table/ov13855_qtech/ISO800_3096x3096.ncf \
+    vendor/smartisan/oscar/proprietary/etc/sensor_denoise_table/ov13855_qtech/ISO800_3968x1984.ncf:system/etc/sensor_denoise_table/ov13855_qtech/ISO800_3968x1984.ncf \
+    vendor/smartisan/oscar/proprietary/etc/sensor_denoise_table/ov13855_qtech/ISO800_4160x2340.ncf:system/etc/sensor_denoise_table/ov13855_qtech/ISO800_4160x2340.ncf \
+    vendor/smartisan/oscar/proprietary/etc/sensor_denoise_table/ov13855_qtech/ISO800_4160x3120.ncf:system/etc/sensor_denoise_table/ov13855_qtech/ISO800_4160x3120.ncf \
+    vendor/smartisan/oscar/proprietary/etc/sensor_denoise_table/ov13855_truly/ISO250_3096x3096.ncf:system/etc/sensor_denoise_table/ov13855_truly/ISO250_3096x3096.ncf \
+    vendor/smartisan/oscar/proprietary/etc/sensor_denoise_table/ov13855_truly/ISO250_3968x1984.ncf:system/etc/sensor_denoise_table/ov13855_truly/ISO250_3968x1984.ncf \
+    vendor/smartisan/oscar/proprietary/etc/sensor_denoise_table/ov13855_truly/ISO250_4160x2340.ncf:system/etc/sensor_denoise_table/ov13855_truly/ISO250_4160x2340.ncf \
+    vendor/smartisan/oscar/proprietary/etc/sensor_denoise_table/ov13855_truly/ISO250_4160x3120.ncf:system/etc/sensor_denoise_table/ov13855_truly/ISO250_4160x3120.ncf \
+    vendor/smartisan/oscar/proprietary/etc/sensor_denoise_table/ov13855_truly/ISO320_3096x3096.ncf:system/etc/sensor_denoise_table/ov13855_truly/ISO320_3096x3096.ncf \
+    vendor/smartisan/oscar/proprietary/etc/sensor_denoise_table/ov13855_truly/ISO320_3968x1984.ncf:system/etc/sensor_denoise_table/ov13855_truly/ISO320_3968x1984.ncf \
+    vendor/smartisan/oscar/proprietary/etc/sensor_denoise_table/ov13855_truly/ISO320_4160x2340.ncf:system/etc/sensor_denoise_table/ov13855_truly/ISO320_4160x2340.ncf \
+    vendor/smartisan/oscar/proprietary/etc/sensor_denoise_table/ov13855_truly/ISO320_4160x3120.ncf:system/etc/sensor_denoise_table/ov13855_truly/ISO320_4160x3120.ncf \
+    vendor/smartisan/oscar/proprietary/etc/sensor_denoise_table/ov13855_truly/ISO400_3096x3096.ncf:system/etc/sensor_denoise_table/ov13855_truly/ISO400_3096x3096.ncf \
+    vendor/smartisan/oscar/proprietary/etc/sensor_denoise_table/ov13855_truly/ISO400_3968x1984.ncf:system/etc/sensor_denoise_table/ov13855_truly/ISO400_3968x1984.ncf \
+    vendor/smartisan/oscar/proprietary/etc/sensor_denoise_table/ov13855_truly/ISO400_4160x2340.ncf:system/etc/sensor_denoise_table/ov13855_truly/ISO400_4160x2340.ncf \
+    vendor/smartisan/oscar/proprietary/etc/sensor_denoise_table/ov13855_truly/ISO400_4160x3120.ncf:system/etc/sensor_denoise_table/ov13855_truly/ISO400_4160x3120.ncf \
+    vendor/smartisan/oscar/proprietary/etc/sensor_denoise_table/ov13855_truly/ISO500_3096x3096.ncf:system/etc/sensor_denoise_table/ov13855_truly/ISO500_3096x3096.ncf \
+    vendor/smartisan/oscar/proprietary/etc/sensor_denoise_table/ov13855_truly/ISO500_3968x1984.ncf:system/etc/sensor_denoise_table/ov13855_truly/ISO500_3968x1984.ncf \
+    vendor/smartisan/oscar/proprietary/etc/sensor_denoise_table/ov13855_truly/ISO500_4160x2340.ncf:system/etc/sensor_denoise_table/ov13855_truly/ISO500_4160x2340.ncf \
+    vendor/smartisan/oscar/proprietary/etc/sensor_denoise_table/ov13855_truly/ISO500_4160x3120.ncf:system/etc/sensor_denoise_table/ov13855_truly/ISO500_4160x3120.ncf \
+    vendor/smartisan/oscar/proprietary/etc/sensor_denoise_table/ov13855_truly/ISO640_3096x3096.ncf:system/etc/sensor_denoise_table/ov13855_truly/ISO640_3096x3096.ncf \
+    vendor/smartisan/oscar/proprietary/etc/sensor_denoise_table/ov13855_truly/ISO640_3968x1984.ncf:system/etc/sensor_denoise_table/ov13855_truly/ISO640_3968x1984.ncf \
+    vendor/smartisan/oscar/proprietary/etc/sensor_denoise_table/ov13855_truly/ISO640_4160x2340.ncf:system/etc/sensor_denoise_table/ov13855_truly/ISO640_4160x2340.ncf \
+    vendor/smartisan/oscar/proprietary/etc/sensor_denoise_table/ov13855_truly/ISO640_4160x3120.ncf:system/etc/sensor_denoise_table/ov13855_truly/ISO640_4160x3120.ncf \
+    vendor/smartisan/oscar/proprietary/etc/sensor_denoise_table/ov13855_truly/ISO800_3096x3096.ncf:system/etc/sensor_denoise_table/ov13855_truly/ISO800_3096x3096.ncf \
+    vendor/smartisan/oscar/proprietary/etc/sensor_denoise_table/ov13855_truly/ISO800_3968x1984.ncf:system/etc/sensor_denoise_table/ov13855_truly/ISO800_3968x1984.ncf \
+    vendor/smartisan/oscar/proprietary/etc/sensor_denoise_table/ov13855_truly/ISO800_4160x2340.ncf:system/etc/sensor_denoise_table/ov13855_truly/ISO800_4160x2340.ncf \
+    vendor/smartisan/oscar/proprietary/etc/sensor_denoise_table/ov13855_truly/ISO800_4160x3120.ncf:system/etc/sensor_denoise_table/ov13855_truly/ISO800_4160x3120.ncf \
     vendor/smartisan/oscar/proprietary/etc/sensors/hals.conf:system/etc/sensors/hals.conf \
     vendor/smartisan/oscar/proprietary/etc/sensors/sensor_def_qcomdev.conf:system/etc/sensors/sensor_def_qcomdev.conf \
     vendor/smartisan/oscar/proprietary/etc/wifi/WCNSS_qcom_wlan_nv.bin:system/etc/wifi/WCNSS_qcom_wlan_nv.bin \
