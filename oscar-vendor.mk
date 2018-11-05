@@ -217,7 +217,6 @@ PRODUCT_COPY_FILES += \
     vendor/smartisan/oscar/proprietary/etc/wifi/WCNSS_qcom_wlan_nv.bin:system/etc/wifi/WCNSS_qcom_wlan_nv.bin \
     vendor/smartisan/oscar/proprietary/etc/wifi/WCNSS_wlan_dictionary.dat:system/etc/wifi/WCNSS_wlan_dictionary.dat \
     vendor/smartisan/oscar/proprietary/lib/hw/audio.primary.msm8953.so:system/lib/hw/audio.primary.msm8953.so \
-    vendor/smartisan/oscar/proprietary/lib/hw/bluetooth.msm8953.so:system/lib/hw/bluetooth.msm8953.so \
     vendor/smartisan/oscar/proprietary/lib/hw/camera.msm8953.so:system/lib/hw/camera.msm8953.so \
     vendor/smartisan/oscar/proprietary/lib/libSensorManagerHAL.so:system/lib/libSensorManagerHAL.so \
     vendor/smartisan/oscar/proprietary/lib/libarcsoft_beautyshot.so:system/lib/libarcsoft_beautyshot.so \
@@ -1628,6 +1627,7 @@ PRODUCT_COPY_FILES += \
     vendor/smartisan/oscar/proprietary/framework/izat.xt.srv.jar:system/framework/izat.xt.srv.jar \
     vendor/smartisan/oscar/proprietary/framework/rcsimssettings.jar:system/framework/rcsimssettings.jar \
     vendor/smartisan/oscar/proprietary/framework/tcmclient.jar:system/framework/tcmclient.jar \
+    vendor/smartisan/oscar/proprietary/lib/hw/bluetooth.msm8953.so:system/lib/hw/bluetooth.msm8953.so \
     vendor/smartisan/oscar/proprietary/lib/libOmxVpp.so:system/lib/libOmxVpp.so \
     vendor/smartisan/oscar/proprietary/lib/libloc_api_v02.so:system/lib/libloc_api_v02.so \
     vendor/smartisan/oscar/proprietary/lib/libloc_ds_api.so:system/lib/libloc_ds_api.so \
