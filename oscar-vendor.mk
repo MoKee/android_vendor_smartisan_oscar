@@ -219,6 +219,9 @@ PRODUCT_COPY_FILES += \
     vendor/smartisan/oscar/proprietary/lib/hw/audio.primary.msm8953.so:system/lib/hw/audio.primary.msm8953.so \
     vendor/smartisan/oscar/proprietary/lib/hw/camera.msm8953.so:system/lib/hw/camera.msm8953.so \
     vendor/smartisan/oscar/proprietary/lib/libSensorManagerHAL.so:system/lib/libSensorManagerHAL.so \
+    vendor/smartisan/oscar/proprietary/lib/libaptXHD_encoder.so:system/lib/libaptXHD_encoder.so \
+    vendor/smartisan/oscar/proprietary/lib/libaptXScheduler.so:system/lib/libaptXScheduler.so \
+    vendor/smartisan/oscar/proprietary/lib/libaptX_encoder.so:system/lib/libaptX_encoder.so \
     vendor/smartisan/oscar/proprietary/lib/libarcsoft_beautyshot.so:system/lib/libarcsoft_beautyshot.so \
     vendor/smartisan/oscar/proprietary/lib/libarcsoft_dualcam_low_light_shot.so:system/lib/libarcsoft_dualcam_low_light_shot.so \
     vendor/smartisan/oscar/proprietary/lib/libarcsoft_dualcam_refocus.so:system/lib/libarcsoft_dualcam_refocus.so \
