@@ -19,6 +19,18 @@ LOCAL_PATH := $(call my-dir)
 ifeq ($(TARGET_DEVICE),oscar)
 
 include $(CLEAR_VARS)
+LOCAL_MODULE := libsdm-disp-apis
+LOCAL_MODULE_OWNER := smartisan
+LOCAL_SRC_FILES_64 := proprietary/vendor/lib64/libsdm-disp-apis.so
+LOCAL_SRC_FILES_32 := proprietary/vendor/lib/libsdm-disp-apis.so
+LOCAL_MULTILIB := both
+LOCAL_MODULE_TAGS := optional
+LOCAL_MODULE_CLASS := SHARED_LIBRARIES
+LOCAL_MODULE_SUFFIX := .so
+LOCAL_PROPRIETARY_MODULE := true
+include $(BUILD_PREBUILT)
+
+include $(CLEAR_VARS)
 LOCAL_MODULE := libts_detected_face_hal
 LOCAL_MODULE_OWNER := smartisan
 LOCAL_SRC_FILES := proprietary/vendor/lib/libts_detected_face_hal.so
@@ -48,18 +60,6 @@ LOCAL_CERTIFICATE := platform
 LOCAL_MODULE_TAGS := optional
 LOCAL_MODULE_CLASS := JAVA_LIBRARIES
 LOCAL_MODULE_SUFFIX := .jar
-include $(BUILD_PREBUILT)
-
-include $(CLEAR_VARS)
-LOCAL_MODULE := libsdm-disp-apis
-LOCAL_MODULE_OWNER := smartisan
-LOCAL_SRC_FILES_64 := proprietary/vendor/lib64/libsdm-disp-apis.so
-LOCAL_SRC_FILES_32 := proprietary/vendor/lib/libsdm-disp-apis.so
-LOCAL_MULTILIB := both
-LOCAL_MODULE_TAGS := optional
-LOCAL_MODULE_CLASS := SHARED_LIBRARIES
-LOCAL_MODULE_SUFFIX := .so
-LOCAL_PROPRIETARY_MODULE := true
 include $(BUILD_PREBUILT)
 
 include $(CLEAR_VARS)
