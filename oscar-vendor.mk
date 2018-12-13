@@ -102,6 +102,16 @@ PRODUCT_COPY_FILES += \
     vendor/smartisan/oscar/proprietary/vendor/firmware/btlap64.b05:$(TARGET_COPY_OUT_VENDOR)/firmware/btlap64.b05 \
     vendor/smartisan/oscar/proprietary/vendor/firmware/btlap64.b06:$(TARGET_COPY_OUT_VENDOR)/firmware/btlap64.b06 \
     vendor/smartisan/oscar/proprietary/vendor/firmware/btlap64.mdt:$(TARGET_COPY_OUT_VENDOR)/firmware/btlap64.mdt \
+    vendor/smartisan/oscar/proprietary/etc/firmware/cpp_firmware_v1_10_0.fw:system/etc/firmware/cpp_firmware_v1_10_0.fw \
+    vendor/smartisan/oscar/proprietary/etc/firmware/cpp_firmware_v1_12_0.fw:system/etc/firmware/cpp_firmware_v1_12_0.fw \
+    vendor/smartisan/oscar/proprietary/etc/firmware/cpp_firmware_v1_1_1.fw:system/etc/firmware/cpp_firmware_v1_1_1.fw \
+    vendor/smartisan/oscar/proprietary/etc/firmware/cpp_firmware_v1_1_6.fw:system/etc/firmware/cpp_firmware_v1_1_6.fw \
+    vendor/smartisan/oscar/proprietary/etc/firmware/cpp_firmware_v1_2_0.fw:system/etc/firmware/cpp_firmware_v1_2_0.fw \
+    vendor/smartisan/oscar/proprietary/etc/firmware/cpp_firmware_v1_4_0.fw:system/etc/firmware/cpp_firmware_v1_4_0.fw \
+    vendor/smartisan/oscar/proprietary/etc/firmware/cpp_firmware_v1_5_0.fw:system/etc/firmware/cpp_firmware_v1_5_0.fw \
+    vendor/smartisan/oscar/proprietary/etc/firmware/cpp_firmware_v1_5_2.fw:system/etc/firmware/cpp_firmware_v1_5_2.fw \
+    vendor/smartisan/oscar/proprietary/etc/firmware/cpp_firmware_v1_6_0.fw:system/etc/firmware/cpp_firmware_v1_6_0.fw \
+    vendor/smartisan/oscar/proprietary/etc/firmware/cpp_firmware_v1_8_0.fw:system/etc/firmware/cpp_firmware_v1_8_0.fw \
     vendor/smartisan/oscar/proprietary/vendor/etc/sensor_denoise_table/gc8034/ISO250_1440x1440.ncf:$(TARGET_COPY_OUT_VENDOR)/etc/sensor_denoise_table/gc8034/ISO250_1440x1440.ncf \
     vendor/smartisan/oscar/proprietary/vendor/etc/sensor_denoise_table/gc8034/ISO250_2688x1512.ncf:$(TARGET_COPY_OUT_VENDOR)/etc/sensor_denoise_table/gc8034/ISO250_2688x1512.ncf \
     vendor/smartisan/oscar/proprietary/vendor/etc/sensor_denoise_table/gc8034/ISO250_3264x2448.ncf:$(TARGET_COPY_OUT_VENDOR)/etc/sensor_denoise_table/gc8034/ISO250_3264x2448.ncf \
