@@ -16,7 +16,6 @@
 
 PRODUCT_COPY_FILES += \
     vendor/smartisan/oscar/proprietary/vendor/bin/btlfpserver:$(TARGET_COPY_OUT_VENDOR)/bin/btlfpserver \
-    vendor/smartisan/oscar/proprietary/vendor/bin/gx_fpd:$(TARGET_COPY_OUT_VENDOR)/bin/gx_fpd \
     vendor/smartisan/oscar/proprietary/vendor/bin/mm-qcamera-daemon:$(TARGET_COPY_OUT_VENDOR)/bin/mm-qcamera-daemon \
     vendor/smartisan/oscar/proprietary/vendor/etc/acdbdata/MTP/MTP_Bluetooth_cal.acdb:$(TARGET_COPY_OUT_VENDOR)/etc/acdbdata/MTP/MTP_Bluetooth_cal.acdb \
     vendor/smartisan/oscar/proprietary/vendor/etc/acdbdata/MTP/MTP_General_cal.acdb:$(TARGET_COPY_OUT_VENDOR)/etc/acdbdata/MTP/MTP_General_cal.acdb \
